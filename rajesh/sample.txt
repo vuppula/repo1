@@ -1,5 +1,0 @@
-hi this is a sample file on branch1
-this is a small script
-4454
-5525
-125
