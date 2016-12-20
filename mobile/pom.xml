@@ -9,7 +9,14 @@
 
   <name>mobile</name>
   <url>http://maven.apache.org</url>
-
+  
+  
+  <scm>
+    <connection>scm:git:https://github.com/vuppula/repo1.git</connection>
+    <developerConnection>scm:git:git@github.com:vuppula/repo1.git</developerConnection>
+    <url>https://github.com/vuppula/repo1</url>
+  </scm>
+  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -23,17 +30,26 @@
     </dependency>
   </dependencies>
   
+  <build>
+  <plugins>
+  <plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-release-plugin</artifactId>
+  <version>2.5.2</version>
+  </plugin>
+</plugins>
+</build>  
   <distributionManagement>
-     <repository>
+    <snapshotRepository>
+        <id>central</id>
+        <name>RAJESH-KUMAR-snapshots</name>
+        <url>http://localhost:8087/artifactory/ext-snapshot-local</url>
+    </snapshotRepository>
+    <repository>
         <id>central</id>
         <name>RAJESH-KUMAR-releases</name>
         <url>http://localhost:8087/artifactory/ext-release-local</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>RAJESH-KUMAR-snapshots</name>
-        <url>http://localhost:8087/artifactory/ext-snapshot-local</url>
-    </snapshotRepository>	
+    </repository>	
 </distributionManagement>
 </project>
  
