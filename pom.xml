@@ -124,6 +124,13 @@
     <build>
         <pluginManagement>
             <plugins>
+                
+                <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.2</version>
+                </plugin>
+     			
                 <!-- The WildFly plugin deploys your ear to a local JBoss
                     AS container -->
                 <!-- Due to Maven's lack of intelligence with EARs we need 
