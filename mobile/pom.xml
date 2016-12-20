@@ -24,7 +24,6 @@
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	<junit.version>3.8.1</junit.version>
   </properties>
 
   <dependencies>
@@ -38,13 +37,13 @@
     <dependency>
       <groupId>commons-codec</groupId>
       <artifactId>commons-codec</artifactId>
-      <version>1.2</version>
+      <version>${coms_version}</version>
     </dependency>
   
     <dependency>
       <groupId>commons-logging</groupId>
       <artifactId>commons-logging</artifactId>
-      <version>1.2</version>
+      <version>${coms_version}</version>
     </dependency>
   </dependencies>
   
