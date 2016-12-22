@@ -14,8 +14,7 @@
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
--->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+--><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <name>banking</name>
     <modelVersion>4.0.0</modelVersion>
     <groupId>in.co.banking</groupId>
@@ -34,7 +33,8 @@
     <modules>
         <module>sms</module>
         <module>mobile</module>
-    </modules>
+    <module>apsrtc</module>
+  </modules>
 	<scm>
     <connection>scm:git:https://github.com/vuppula/repo1.git</connection>
     <developerConnection>scm:git:git@github.com:vuppula/repo1.git</developerConnection>
