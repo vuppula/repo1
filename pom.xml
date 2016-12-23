@@ -33,7 +33,6 @@
     <modules>
         <module>sms</module>
         <module>mobile</module>
-    <module>apsrtc</module>
   </modules>
 	<scm>
     <connection>scm:git:https://github.com/vuppula/repo1.git</connection>
