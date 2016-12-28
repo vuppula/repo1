@@ -30,20 +30,14 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>${junit.version}</version>
+      <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-  
-    <dependency>
-      <groupId>commons-codec</groupId>
-      <artifactId>commons-codec</artifactId>
-      <version>${coms_version}</version>
-    </dependency>
-  
+	
     <dependency>
       <groupId>commons-logging</groupId>
       <artifactId>commons-logging</artifactId>
-      <version>${coms_version}</version>
+      <version>1.2</version>
     </dependency>
   </dependencies>
   
