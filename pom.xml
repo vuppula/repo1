@@ -46,7 +46,7 @@
         <url>http://localhost:8087/artifactory/ext-release-local</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
+        <id>central</id>
         <name>RAJESH-KUMAR-snapshots</name>
         <url>http://localhost:8087/artifactory/ext-snapshot-local</url>
     </snapshotRepository>
