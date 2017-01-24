@@ -44,7 +44,7 @@
     <snapshotRepository>
         <id>central</id>
         <name>RAJESH-KUMAR-snapshots</name>
-        <url>http://192.168.1.13:8087/artifactory/ext-snapshot-local</url>
+        <url>http://192.168.112.1:8087/artifactory/ext-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
 
